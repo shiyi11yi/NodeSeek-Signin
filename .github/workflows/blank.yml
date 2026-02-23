@@ -47,6 +47,17 @@ jobs:
           PASS4: ${{ secrets.PASS4 }}
           USER5: ${{ secrets.USER5 }}
           PASS5: ${{ secrets.PASS5 }}
+          USER6: ${{ secrets.USER6 }}
+          PASS6: ${{ secrets.PASS6 }}
+          USER7: ${{ secrets.USER7 }}
+          PASS7: ${{ secrets.PASS7 }}
+          USER8: ${{ secrets.USER8 }}
+          PASS8: ${{ secrets.PASS8 }}
+          USER9: ${{ secrets.USER9 }}
+          PASS9: ${{ secrets.PASS9 }}
+          USER10: ${{ secrets.USER10 }}
+          PASS10: ${{ secrets.PASS10 }}
+
           
           # Cookie配置
           NS_COOKIE: ${{ vars.NS_COOKIE || secrets.NS_COOKIE }}
